@@ -1,4 +1,4 @@
-
+//declearing constants and variables.
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -10,13 +10,15 @@ var dust;
 
 
 function preload(){
-
+// loading the bin image,
 	dust = loadImage("bin.png");
 
 }
 
 
 function setup() {
+	
+	// creating canvas
 	createCanvas(2250, 1000);
 	
 
